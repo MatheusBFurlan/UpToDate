@@ -28,6 +28,11 @@ git add arquivo.ex
 git commit -m "versao"
 git push -u origin master
 
+Clonar repositorio em diretorio local
+-----------------------------------
+git clone https://github.com....git
+
+
 Atualizar Commit
 ------------------
 git fetch
