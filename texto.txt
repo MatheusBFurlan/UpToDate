@@ -1,2 +1,35 @@
-Teste
-Teste 2
+
+
+Instalação
+------------------
+sudo apt-get install git
+
+Logar no GitHub e Configurar
+----------------------------------
+*Logar no github.com(site)
+git config --global user.name "nome_usuario"
+git config --global user.email "email_usuario"
+
+Criar repositorio
+--------------------
+Criar no site e no PC(preferencia na pasta home) entrar no diretório e copiar no terminal os processos so site.
+
+Primeiro Commit
+------------------
+git add arquivo.ex
+git commit -m "versao"
+*git remote add origin https://....git
+git push -u origin master 
+cd nome_repositorio 
+
+Commit
+------------------
+git add arquivo.ex
+git commit -m "versao"
+git push -u origin master
+
+Atualizar Commit
+------------------
+git fetch
+git pull
+ 
